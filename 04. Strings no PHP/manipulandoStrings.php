@@ -9,7 +9,13 @@
     // Concatenação de strings
         $nomeCompleto = $nome . ' ' . $sobrenome;
 
-    //Imprimindo o resultado
+    // Contagem de caracteres
+        $numeroDeCaract = strlen($nomeCompleto);
+
+
+        //Imprimindo o resultado
         echo "Nome completo: $nomeCompleto <br/>";  
-        
+        echo "Número de caracteres: $numeroDeCaract"; 
+        echo "<br/>";
+        echo "Idade: $idade";
 ?>
