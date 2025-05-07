@@ -13,9 +13,13 @@
 
 
 <?php
-    $feitoPor = "Feito por Leonardo George";
-
+    $feitoPor = "Feito por";
+    $primeiroNome = "Leonardo";
+    $segundoNome = "George";
+    $nomeCompleto = $primeiroNome . " " . $segundoNome; // Concatenando variaveis
+   
     // This is a simple PHP script that outputs "Hello World!" to the browser
     echo "<h1>Helo World!</h1> <br/>";
     echo $feitoPor;
+    echo $nomeCompleto
 ?>
