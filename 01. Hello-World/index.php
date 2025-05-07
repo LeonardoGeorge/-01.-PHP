@@ -1,24 +1,21 @@
-
-
-
 <?php
-  // - Toda a variavel em PHP começa com o simbolo $.
-  // - As variaveis podem conter:
+
+  // - Toda variável em PHP começa com o símbolo $.
+  // - As variáveis podem conter:
   // -- Letras
-  // -- Numeros 
-  // -- Simbolo de underscore (_).
-  // -- As variaveis não podem começar com numeros.
-  // -- As variaveis são case-sensitive, ou seja: 
-  //  --$nome e $Nome são variaveis diferentes.
+  // -- Números 
+  // -- Símbolo de underscore (_).
+  // -- As variáveis não podem começar com números.
+  // -- As variáveis são case-sensitive, ou seja: 
+  //  -- $nome e $Nome são variáveis diferentes.
 
-
-    $feitoPor = "Feito por";
-    $primeiroNome = "Leonardo";
-    $segundoNome = "George";
-    $nomeCompleto = $primeiroNome . " " . $segundoNome; // Concatenando variaveis
+  $feitoPor = "Feito por";
+  $primeiroNome = "Leonardo";
+  $segundoNome = "George";
+  $nomeCompleto = $primeiroNome . " " . $segundoNome; 
    
-    // This is a simple PHP script that outputs "Hello World!" to the browser
-    echo "<h1>Helo World!</h1> <br/>";
-    echo $feitoPor;
-    echo $nomeCompleto
+  // Este é um script PHP simples que exibe "Hello World!" no navegador
+  echo "<h1>Hello World!</h1> <br/>";
+  echo $feitoPor . " ";
+  echo $nomeCompleto;
 ?>
