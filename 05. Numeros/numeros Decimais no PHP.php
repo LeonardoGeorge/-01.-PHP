@@ -27,6 +27,18 @@ echo "<br>";
 $numero = 10.56789;
 $numeroArredondado = round($numero, 1);      
 echo "<br><br>Número original: $numero";
-echo "<br>Número arredondado: $numeroArredondado"; // Resultado: 10.57
+echo "<br>Número arredondado: $numeroArredondado"; // Resultado: 10.57   
+
+echo "<br>";
+
+// Exemplo de floor e ceil
+$numero = 15.56789;         
+$numeroArredondadoParaBaixo = floor($numero); // Arredonda para baixo
+$numeroArredondadoParaCima = ceil($numero); // Arredonda para cima  
+
+echo "<br><br>Número original: $numero";
+echo "<br>Número arredondado para baixo: $numeroArredondadoParaBaixo"; // Resultado: 10
+echo "<br>Número arredondado para cima: $numeroArredondadoParaCima"; // Resultado: 11
+
 
 ?>
